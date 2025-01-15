@@ -1,5 +1,5 @@
 typing
-twisted==17.1.0
+twisted==19.10.0
 cryptography>=0.9.1
 configparser
 pyopenssl==18.0.0
@@ -29,3 +29,4 @@ pandas
 cvxopt==1.2.0
 protobuf==3.6.0
 tensorflow==1.6
+bcrypt==3.1.6

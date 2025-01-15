@@ -53,7 +53,7 @@ Just run sudo docker-compose build && sudo docker-compose up -d
 * Turn on manual = true in irassh/shell/honeypot.sh
 * Turn on server: bin/irassh start
 * Turn on manual console: python bin/manual
-* Connect to server: ssh root@localhost -p 2222
+* Connect to server: ssh root@localhost -p 22
 
 ## New features
 * Add action to playlog
