@@ -24,6 +24,9 @@ RUN chown -R irassh:irassh /usr/include/mysql/
 USER irassh
 ENV PATH="$PATH:/home/irassh/.local/bin"
 RUN pip2 install typing
+RUN pip2 install automat==0.5.0
+RUN pip2 install incremental==17.5.0
+RUN pip2 install twisted==17.1.0
 RUN python2 -m pip install -r requirements.txt
 RUN pip2 install matplotlib
 RUN pip2 install arrow

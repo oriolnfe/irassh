@@ -1,31 +1,29 @@
-typing
-twisted==19.10.0
 cryptography>=0.9.1
-configparser
+configparser==3.5.0
 pyopenssl==18.0.0
-pyparsing
-packaging
+pyparsing==2.2.0
+packaging==17.1
 appdirs>=1.4.0
-pyasn1_modules
+pyasn1_modules==0.2.1
 attrs==19.2.0
 automat==20.2.0
-service_identity
-python-dateutil
-tftpy
-pybrain
-pygeoip
-xlrd
+service_identity==18.1.0
+python-dateutil==2.6.1
+tftpy==0.6.0
+pybrain==0.3
+pygeoip==0.3.2
+xlrd==1.1.0
 # matplotlib
 # arrow==0.12.0 
 # backports.functools-lru-cache==1.2.1
 scipy==1.1.0
-pyasn1
-pycrypto
+pyasn1==0.4.2
+pycrypto==2.6.1
 mysqlclient==1.4.0 #MySQL-python
 numpy==1.15.0
 keras==2.1.5
-h5py
-pandas
+h5py==2.7.1
+pandas==0.23.4
 cvxopt==1.2.0
 protobuf==3.6.0
 tensorflow==1.6
